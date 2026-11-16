@@ -17,6 +17,14 @@ export default defineConfig({
       ],
       editLink: { baseUrl: "https://minehouse.pro/wiki-edit/" },
       lastUpdated: true,
+      // Картинка для превью ссылок и поисковиков, одна на все страницы.
+      head: [
+        { tag: "meta", attrs: { property: "og:image", content: "https://wiki.minehouse.pro/og.png" } },
+        { tag: "meta", attrs: { property: "og:image:width", content: "1200" } },
+        { tag: "meta", attrs: { property: "og:image:height", content: "630" } },
+        { tag: "meta", attrs: { name: "twitter:card", content: "summary_large_image" } },
+        { tag: "meta", attrs: { name: "twitter:image", content: "https://wiki.minehouse.pro/og.png" } },
+      ],
       customCss: ["./src/styles/theme.css"],
       sidebar: [
         { label: "На сайт MineHouse", link: "https://minehouse.pro", attrs: { target: "_self" } },
