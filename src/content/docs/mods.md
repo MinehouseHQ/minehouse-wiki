@@ -24,11 +24,11 @@ description: Какие моды рекомендуем, какие можно �
 
 ![Главное меню сборки MineHouse](../../assets/shots/modpack-menu.png)
 
-Исходники наших клиентских модов открыты: [minehouse/minehouse-mods](https://github.com/minehouse/minehouse-mods). Там же можно проверить, что jar в сборке собран ровно из них.
+Исходники наших клиентских модов открыты: [MinehouseHQ/minehouse-mods](https://github.com/MinehouseHQ/minehouse-mods). Там же можно проверить, что jar в сборке собран ровно из них.
 
 ## Лаунчер MineHouse
 
-У сервера есть свой лаунчер: он сам ставит игру и сборку и заходит на сервер одной кнопкой. Нужен аккаунт Microsoft с купленной Minecraft. Скачать: [GitHub](https://github.com/minehouse/minehouse-launcher/releases).
+У сервера есть свой лаунчер: он сам ставит игру и сборку и заходит на сервер одной кнопкой. Нужен аккаунт Microsoft с купленной Minecraft. Скачать: [GitHub](https://github.com/MinehouseHQ/minehouse-launcher/releases).
 
 ![Лаунчер MineHouse](../../assets/shots/launcher.png)
 

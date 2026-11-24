@@ -13,7 +13,7 @@ export default defineConfig({
       locales: { root: { label: "Русский", lang: "ru" } },
       social: [
         { icon: "discord", label: "Discord", href: "https://discord.gg/gCYGxDzaCb" },
-        { icon: "github", label: "GitHub", href: "https://github.com/minehouse/minehouse-wiki" },
+        { icon: "github", label: "GitHub", href: "https://github.com/MinehouseHQ/minehouse-wiki" },
       ],
       editLink: { baseUrl: "https://minehouse.pro/wiki-edit/" },
       lastUpdated: true,
