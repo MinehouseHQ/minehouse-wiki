@@ -12,4 +12,4 @@ pnpm dev     # http://localhost:4321
 pnpm build   # проверка, что всё собирается
 ```
 
-Сайт собирается и выкладывается Vercel автоматически: `main` уходит на wiki.minehouse.pro, у каждого pull request есть своя ссылка на предпросмотр.
+Вики не на Vercel: это статика на своём VPS `62.83.44.100` (`/opt/minehouse-wiki`, раздаёт Caddy). Пуш в `main` вызывает вебхук, и `mh-deploy wiki` сам собирает и выкладывает её на wiki.minehouse.pro примерно за минуту. Предпросмотра у pull request нет: проверяй локально (`pnpm dev` или `pnpm build && pnpm preview`), сборку проверяет CI.
