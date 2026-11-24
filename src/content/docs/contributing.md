@@ -22,7 +22,7 @@ description: Как предложить правку или добавить с
 
 ## Без роли редактора
 
-Нашёл ошибку, но роли нет? Напиши в Discord. Если умеешь пользоваться GitHub, можно предложить правку там: вики хранится в репозитории [P5ina/minehouse-wiki](https://github.com/P5ina/minehouse-wiki), каждая страница это Markdown-файл в папке `src/content/docs`.
+Нашёл ошибку, но роли нет? Напиши в Discord. Если умеешь пользоваться GitHub, можно предложить правку там: вики хранится в репозитории [MinehouseHQ/minehouse-wiki](https://github.com/MinehouseHQ/minehouse-wiki), каждая страница это Markdown-файл в папке `src/content/docs`.
 
 ## Как писать
 
